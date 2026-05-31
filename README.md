@@ -10,6 +10,14 @@ brew install sreebalakrishnan/netaudit/netaudit
 
 That's it. The cask downloads the DMG from `netaudit.sreeb.dev`, copies `NetAudit.app` into `/Applications`, and strips Gatekeeper quarantine in a `postflight` step so first launch is silent.
 
+## Run it
+
+NetAudit is a **GUI app**, not a command-line tool — there is no `netaudit` terminal command (running it in your shell gives `command not found: netaudit`). After installing, launch it from `/Applications`, Spotlight, or the terminal:
+
+```bash
+open -a NetAudit
+```
+
 ## Update
 
 ```bash
